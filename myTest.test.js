@@ -3,10 +3,10 @@ describe("Test the root path", () => {
     const response = request(app)
       .post("http://localhost:8000/user/delete")
       .send({
-        Name: "Huzaifa Anjum",
-        Email: "i202319@nu.edu.pk",
-        Age: 22,
-        Contact: 3136900427,
+        Name: "Abdullah ",
+        Email: "i200457@nu.edu.pk",
+        Age: 21,
+        Contact: 3333,
       });
     expect(response.statusCode), toBe(200);
   });
